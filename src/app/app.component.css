@@ -1,0 +1,57 @@
+.main-container {
+    background-color: Grey;
+    padding: 1px;
+  } 
+
+  .integer,.text {
+    width: 100%;
+  }
+
+ .keycontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px 10px 2px 10px;
+    height:58px;
+ }
+.keys{
+    background-color: lightgrey;
+    text-align: center;
+    margin: 2px;
+    padding:10px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.keys:hover {
+    opacity: 1;
+}
+  @media only screen and (min-width: 640px) {
+    .main-container {
+        height :300px;
+        width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .main-container {
+        margin: 2rem;
+        height: 580px;
+    }
+
+    .keycontainer{
+        display: flex;
+        justify-content: space-around;
+        margin: 8px 12px 60px 10px;
+        height: 66px;
+    }
+    
+    .keys{
+        background-color: lightgrey;
+        text-align: center;
+        margin: 2px;
+        cursor: pointer;
+        opacity: 0.9;
+        width: 90px;
+        height: 113px;
+    
+    } 
+  }
